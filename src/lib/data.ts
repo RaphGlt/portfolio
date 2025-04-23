@@ -1,17 +1,17 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Raphaël Guillet",
+  location: "Villeurbanne, France",
+  email: "raphael.bernard.guillet@gmail.com",
+  github: "https://github.com/RaphGlt",
+  linkedin: "https://www.linkedin.com/in/raphaël-guillet-b0538b2bb/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "LMFA (laboratoire de mécanique des fluides et d'acoustique)",
+    location: "36 avenue Guy de Collongue, 69100 Villeurbanne, France",
+    position: "Développeur python",
+    period: "Avril 2025 - juillet 2025",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
       "Built a comprehensive admin panel for managing content, user data, and analytics.",
@@ -22,39 +22,16 @@ export const workExperience = [
       "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
     ],
   },
-  {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
-    achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
-    ],
-  },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
-    ],
-  },
+  
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "IUT informatique lyon 1 la Doua",
+    location: "Villeurbanne, France",
+    degree: "But informatique parcour RA (réalisation d'applications)",
+    period: "Septembre 2023 - juin 2026",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
     ],
   },
 ];
@@ -63,106 +40,179 @@ export const skills = {
     "TypeScript",
     "JavaScript",
     "Python",
-    "C++",
+    "C",
+    "C#",
     "Java",
-    "Solidity",
   ],
   frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
+    "Vue.js",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
+  backendDevelopment: [
+    "Vue.js",
+    "PHP",
+    "Symfony"
+  ],
+  databaseAndStorage: [
+    "mySQL",
+    "MongoDB",
+    "SQL",
+    "PL/SQL",
+  ],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    "GIT",
+    "Poxer AMC",
+    "Power BI",
+    "GIMPS",
+    "Blender",
+    "Figma",
+    "Unity",
+    "Unreal Engine",
+    "OBS"
   ],
 };
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "Implémentation en C",
+    competence: "AC11.01, AC11.02, AC11.03",
+    github: "",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+      "Le projet consisté à lire un fichier csv pour en extraire des vol et ainsi créer un affiche de vol.",
+      "Cela m'a appris les basse générale de langage de programation",
+      "l'utilisation d'un fichier csv et comment pouvons nous le lire.",
+      "J'ai aussi appris à utiliser le GIT",
     ],
+    semester: 1,
   },
   {
-    title: "Mental Aarog",
+    title: "Comparaison d'approche algorithmiques",
+    competence: "AC12.01, AC12.02, AC12.03",
+    github: "",
+    description: [
+      "Nous avons créé des algorithme permettant de trier les donnsée récupéré dans un fichier csv et nous les avons comparé pour savoir lequel était le plus efficasse",
+      "mise en pratique des méthode de tri vus en cours",
+      "développement d'un regard analytique",
+    ],
+    semester: 1,
+  },
+  {
+    title: "Installation d'un poste de développement",
+    competence: "AC13.01, AC13.02, AC13.03",
+    github: "",
+    description: [
+      "Réalisation de notice pour configurer le poste d'un nouvel utilisateur",
+      "besoin en comunication important pour vulgariser les étapes",
+    ],
+    semester: 1,
+  },
+  {
+    title: "création d'une base de donnée",
+    competence: "AC14.01, AC14.03",
+    github: "",
+    description: [
+      "Réalisation d'une base de donnée pour des formations/conférence",
+      "analyse des des besoin du client pour comprendre la structure de son organisation",
+      "création des entité, de leur attributs et relation avec du SQL",
+    ],
+    semester: 1,
+  },
+  {
+    title: "création d'un site web basé sur les demande d'un client",
+    competence: "AC15.01, AC15.03",
+    github: "https://github.com/RaphGlt/SiteWeb/tree/master",
+    description: [
+      "Réalisation d'un site web en html pour les besoin d'un client",
+      "mise en place d'un site web statique",
+      "approfondissement de mes connaissance en html",
+      "apprentissage de la communication avec le client",
+    ],
+    semester: 1,
+  },
+  {
+    title: "Grosse sae du S2",
+    competence: "AC11.01, AC11.02, AC11.03, AC11.04, AC12.01, AC12.02, AC12.03, AC15.01, AC15.02, AC15.03",
     github: "https://github.com/rishikesh2003/mental-aarog",
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "Cette Saé à combiné trois Saé",
+      "Nous avons créé une application java permettant de lire un csv et éviter, grace à des algorithme choisi, les colision entre les vols",
+      "Mise en pratique des langage de programmation orienté objet",
+      "approfondissement de l'algorithmique",
+      "diriger un projet",
+      "communiquer pour expliquer certain choix"
     ],
+    semester: 2,
+  },
+  
+  {
+    title: "Buddy Budget",
+    competence: "AC21.01, AC21.02, AC21.03, AC22.01, AC23.01, AC23.02, AC24.03, AC24.04, AC25.02, AC25.03, AC25.04, AC26.02, AC26.03, AC26.04",
+    github: "",
+    description: [
+      "Seul Saé du semestre 3",
+      "Nous avons créé un application web, avec du php, de gestion de budget",
+      "Mise en pratique du php",
+      "communication avec une base de donnée",
+      "première expérience en Agile",
+      "travail en équipe majeur"
+    ],
+    semester: 3,
+  },
+  {
+    title: "course toujours",
+    competence: "AC21.01, AC21.02, AC21.03, AC23.01, AC26.02",
+    github: "https://github.com/RaphGlt/courseToujours",
+    description: [
+      "Création d'un site pour gérer nos liste de course",
+      "mise en pratique du frame work symfony"
+    ],
+    semester: 3,
+  },
+  {
+    title: "Tuto Unreal Engine",
+    competence: "AC22.04, AC26.03, AC26.04",
+    github: "",
+    description: [
+      "projet d'anglais consitant à faire une vidéo tutoriel en lien avec l'informatique",
+      "découverte d'unreal engine (le système de blueprint)",
+      "vulgarisation et exercice de synthèse pour expliquer un sujet technique",
+    ],
+    semester: 4,
+  },
+  {
+    title: "à la carte",
+    competence: "AC21.01, AC22.04, AC24.03, AC25.02",
+    github: "",
+    description: [
+      "application android pour connaitre les restaurant à proximité",
+      "prise en main du kotlin",
+      "utilisation de jetpack compose",
+      "utilisation d'android studio",
+    ],
+    semester: 4,
+  },
+  {
+    title: "plusieurs petite démo sur Unity",
+    competence: "",
+    github: "",
+    description: [
+      "formation personnelle sur Unity",
+      "apprentissage de la création de jeux vidéo avec Unity",
+      "apprentissage du C#",
+      "utilisation de blender et GIMPS",
+      "découverte des procédé et technique mis en plae dans la création de jeux vidéo",
+    ],
+    semester: 7,
   },
 ];
 
 export const awards = [
-  {
+  /*{
     name: "IEEE YESIST12 Hackathon",
     issuer: "IEEE",
     date: "Sep 2022",
     type: "International",
     position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
+  },*/
 ];
