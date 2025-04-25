@@ -133,7 +133,7 @@ export const projects = [
   {
     title: "Grosse sae du S2",
     competence: "AC11.01, AC11.02, AC11.03, AC11.04, AC12.01, AC12.02, AC12.03, AC15.01, AC15.02, AC15.03",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    github: "https://github.com/RaphGlt/Grosse_Sae_S2",
     description: [
       "Cette Saé à combiné trois Saé",
       "Nous avons créé une application java permettant de lire un csv et éviter, grace à des algorithme choisi, les colision entre les vols",
@@ -148,7 +148,7 @@ export const projects = [
   {
     title: "Buddy Budget",
     competence: "AC21.01, AC21.02, AC21.03, AC22.01, AC23.01, AC23.02, AC24.03, AC24.04, AC25.02, AC25.03, AC25.04, AC26.02, AC26.03, AC26.04",
-    github: "",
+    github: "https://www.kenzabenslimane.fr/Page/pageConnexion.php",
     description: [
       "Seul Saé du semestre 3",
       "Nous avons créé un application web, avec du php, de gestion de budget",

@@ -90,6 +90,9 @@ export default function ProjectsGrid() {
               <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
                 {p.title}
               </h3>
+              <h2>
+                {p.competence}
+              </h2>
               <ul className="list-disc list-inside space-y-1 text-gray-300">
                 {p.description.map((d, i) => (
                   <li key={i}>{d}</li>
@@ -103,7 +106,7 @@ export default function ProjectsGrid() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-purple-300 hover:text-purple-400 font-medium transition-colors"
               >
-                Voir sur GitHub
+                Voir le projet
                 <svg
                   className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform"
                   fill="none"
