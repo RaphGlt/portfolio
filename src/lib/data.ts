@@ -9,19 +9,25 @@ export const personalInfo = {
 export const workExperience = [
   {
     company: "LMFA (laboratoire de mécanique des fluides et d'acoustique)",
-    location: "36 avenue Guy de Collongue, 69100 Villeurbanne, France",
+    location: "36 avenue Guy de Collongue, 69134 Écully, France",
     position: "Développeur python",
     period: "Avril 2025 - juillet 2025",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Développement de script pour mettre à jour un annuaire en ligne à partir d'un fichier csv",
+      "Mise en place d'un script pour créer des fichier excel à partir d'un fichier csv",
     ],
   },
+  {
+    company: "SEMERU",
+    location: "8 Rue Joseph Nicéphore Niepce, 69740 Genas, France",
+    position: "Développeur web",
+    period: "Septembre 2025 - Aout 2026",
+    achievements: [
+      "je suis intervenu sur le projet de mise à jour du SAGT (Système d'Aide à la Gestion des Transports) du CRGT (centre réunionais de gestion du trafic)",
+      "Développement d'un CRUD pour gérer des messages préenregistrés",
+      "Développement d'une bibliothèque de messages préenregistrés",
+    ]
+  }
   
 ];
 
@@ -48,21 +54,26 @@ export const skills = {
     "Vue.js",
     "HTML",
     "CSS",
+    "Next.js",
+    "Angular"
   ],
   backendDevelopment: [
     "Vue.js",
     "PHP",
-    "Symfony"
+    "Symfony",
+    "Spring Boot",
+    "NestJS",
   ],
   databaseAndStorage: [
     "mySQL",
     "MongoDB",
     "SQL",
     "PL/SQL",
+    "PostgreSQL"
   ],
   toolsAndServices: [
     "GIT",
-    "Poxer AMC",
+    "Docker",
     "Power BI",
     "GIMPS",
     "Blender",
