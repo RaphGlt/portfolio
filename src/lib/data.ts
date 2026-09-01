@@ -204,6 +204,42 @@ export const projects = [
     semester: 4,
   },
   {
+    title: "Maloia",
+    competence: "",
+    github: "",
+    description: [
+      "projet lors de mon alternance",
+    ],
+    semester: 5,
+  },
+  {
+    title: "Maloia",
+    competence: "",
+    github: "",
+    description: [
+      "projet lors de mon alternance",
+    ],
+    semester: 6,
+  },
+  {
+    title: "Nexus portal EDT",
+    competence: "",
+    github: "",
+    description: [
+      "projet de refonte du portail de l'edt de l'IUT",
+    ],
+    semester: 5,
+  },
+  {
+    title: "Nexus portal EDT",
+    competence: "",
+    github: "",
+    description: [
+      "projet de refonte du portail de l'edt de l'IUT",
+    ],
+    semester: 6,
+  },
+  {
     title: "plusieurs petite démo sur Unity",
     competence: "",
     github: "",
